@@ -17,7 +17,7 @@ void menu_show_main() {
     cout << "4. Удалить транзакцию" << endl;
     cout << "5. Cохранить в файл" << endl;
     cout << "6. Загрузить из файла" << endl;
-    cout << ". Выход" << endl;
+    cout << "7. Выход" << endl;
     cout << "Выберите действие: ";
 }
 
@@ -57,3 +57,4 @@ void menu_process_choice(int choice) {
     default:
         cout << "Неверный выбор! Попробуйте снова." << endl;
     }
+
